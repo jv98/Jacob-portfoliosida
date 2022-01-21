@@ -21,8 +21,3 @@ function Home() {
         home.classList.add('active')   
     }
 }
-
-
-function myFunction() {
-    location.replace("https://www.w3schools.com")
-  }
