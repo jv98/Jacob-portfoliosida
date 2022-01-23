@@ -1,0 +1,20 @@
+.background{
+    color: black;
+    display: flex;
+    
+
+   
+}
+
+.bild{
+    height: 50rem;
+    object-fit: contain;
+    display: flex;
+    margin-top: 0.1rem;
+    /* height: 50rem;
+   
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 0rem 7rem; */
+}
