@@ -1,9 +1,9 @@
 body{
-    background-color: rgb(223, 217, 217);
+    background-color: rgb(236, 234, 234);
 }
 
 .background{
-    color: black;
+  
     display: flex;
     
 
@@ -11,8 +11,12 @@ body{
 }
 
 .bild{
-    text-align:left;
+    text-align:center;
     margin-top: 5rem;
-   
+    
+}
+
+.panel{
+    text-align: center;
 }
 
