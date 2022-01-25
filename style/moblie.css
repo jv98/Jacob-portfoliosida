@@ -1,5 +1,21 @@
 @media (max-width:38em) {
     .me-bild{
-        height: 16rem;
+        height: 14.5rem;
     }
+
+    .higerbild{
+        height: 9rem;
+    }
+    .frame{
+        display: block;
+        
+    }
+  
+} 
+@media  (min-width:19em){
+    .frame{
+        width: 90%;
+        
+    }
+    
 }

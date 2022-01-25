@@ -1,0 +1,12 @@
+@media (min-width: 90em) {
+    .frame{
+        width: 60%;
+    }
+    
+}
+
+@media (min-width:160em ) {
+    .frame{
+        width: 35%;
+    }
+}

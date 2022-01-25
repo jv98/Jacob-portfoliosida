@@ -1,5 +1,9 @@
-@media (max-width: 48em) {
+@media (min-width: 48em) {
     .me-bild{
-        height: 16rem;
+        height: 35rem;
+    }
+
+    .higerbild{
+        height: 12rem;
     }
 }

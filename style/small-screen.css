@@ -1,3 +1,6 @@
-@media (max-width: 94em) {
+@media (min-width: 64em) {
+    .higerbild{
+        height: 22rem;
+    }
     
 }
