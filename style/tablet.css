@@ -7,3 +7,8 @@
         height: 12rem;
     }
 }
+@media(min-width: 40em) {
+    .higerbild{
+        height: 12rem;
+    }
+}
