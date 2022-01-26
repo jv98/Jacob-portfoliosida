@@ -19,6 +19,7 @@ html body {
     justify-content: space-around;
     z-index: 20;
     width: auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
     
 }
 a { 
@@ -65,4 +66,6 @@ text-decoration: none;
     z-index: 20;
     width: auto; 
     height: auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
 }
