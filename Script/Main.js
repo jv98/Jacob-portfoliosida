@@ -1,23 +1,25 @@
-// function main() {
-//     addEventListeners()
-// }
-
-// const navHome = document.querySelector('#nav-home')
-
-// function addEventListeners() {     
-//     navHome.addEventListener('click', goToHome)
+let x;
+GetTimeHour();   
+function GetTimeHour() {
+ x = new Date().getHours()
+   return(x);
+  }
+  
+TimerightOut();
+function TimerightOut(){
+    let y = document.getElementById("Timeday");
    
-// }
-
-// function Home() {
-//     const home = document.querySelector('.start-image')
-
-//     if(!home.classList.contains('active')) {
-//         nonActive.forEach((e) => {
-//             if(e.classList.contains('active')) {
-//                 e.classList.remove('active')
-//             }
-//         })
-//         home.classList.add('active')   
-//     }
-// }
+    if (x > 7  &&  x < 12 ) {
+        y.innerHTML = "God Morgon";
+    }
+    else if (x >= 12  &&  x < 18 ) {
+        y.innerHTML = "God Eftermidag";
+    }
+    else if (x >=18   &&  x < 22 ) {
+        y.innerHTML = "God Kväll";
+    }
+    else if (x >=22  || x <= 7 ) {
+        y.innerHTML = "God Natt ";
+    }  
+    
+}
